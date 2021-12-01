@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git '/jiaxuan7/JenkinsDependencyCheckTest'
+                git 'JenkinsDependencyCheckTest'
             }
         }
 
